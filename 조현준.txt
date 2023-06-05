@@ -1,0 +1,46 @@
+//객체 만들고 지우는 함수
+if (!m_bLetterboxInit&& m_iTexIndex == 37 && m_bSwitch)
+	{
+		m_bLetterboxInit = true;
+
+		
+		m_pLetterBox = CLetterBox::Create(m_pGraphicDev, L"Press [E] to Interact", sizeof(L"Press [E] to Interact"), 0);
+		
+		dynamic_cast<CLetterBox*>(m_pLetterBox)->Off_Switch();
+		
+		TCHAR* szCntName = new TCHAR[64];
+		wsprintf(szCntName, L"");
+		const _tchar*	szNumbering = L"WallLetter_%d";
+		wsprintf(szCntName, szNumbering, m_iLetterCnt);
+		Engine::Add_GameObject(STAGE_MAPPING, m_pLetterBox, szCntName);
+		m_listLetterCnt.push_back(szCntName);
+	
+		++m_iLetterCnt;
+		cout << m_iLetterCnt << endl;
+		Safe_Delete_Array(szCntName);
+
+	}
+	
+TCHAR* szWLN = new TCHAR[64];
+		wsprintf(szWLN, L"");
+		const _tchar*	szWLN2 = L"WallLetter_%d";
+		wsprintf(szWLN, szWLN2, m_iLetterCnt);
+		m_listWallCnt2.push_back(szWLN);
+		wstring str = szWLN;
+		if (!m_listLetterCnt.empty())
+		{
+			for (auto& iter = m_listLetterCnt.begin(); iter != m_listLetterCnt.end();)
+			{
+				if (!wcscmp(*iter, str.c_str()))
+				{
+					wstring str1 = *iter;
+					Delete_GameObject(STAGE_MAPPING, str1.c_str());
+					delete *iter;
+					iter = m_listLetterCnt.erase(iter);
+				}
+				else
+				{
+					iter++;
+				}
+			}
+		}

@@ -1,0 +1,1550 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="00. MainApp">
+      <UniqueIdentifier>{380f988b-e1a6-42ae-8be7-9321e4e4e749}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Default">
+      <UniqueIdentifier>{33f7b172-f900-4736-bf56-92f7a74c02d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Default\리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="99. Default\소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="99. Default\헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="01. Scene">
+      <UniqueIdentifier>{51abecec-9fb8-4a32-b8b8-3291df53ea13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene\00. Logo">
+      <UniqueIdentifier>{019cda08-d1b3-446a-a55c-95aea3c45ddf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene\01. Stage">
+      <UniqueIdentifier>{89694268-cdb2-4de5-8f07-5d50beb56bc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject">
+      <UniqueIdentifier>{92c612f7-c35f-43df-8932-e63aa606626c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene\99. Loading">
+      <UniqueIdentifier>{9a8454ca-ef75-40a4-b8b4-2356079cbdbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. For_Logo">
+      <UniqueIdentifier>{30025f09-0432-46d7-a330-4c3f8a541dc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage">
+      <UniqueIdentifier>{2bfecef8-7bb9-4ef2-9936-4e2cc1d897db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\02. For_Public">
+      <UniqueIdentifier>{98c8ba54-2e7c-4c81-ad80-68e242cf8c19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\02. For_Public\01. StaticCamera">
+      <UniqueIdentifier>{16f0def3-4911-4ea3-8331-aff0318350a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\05. CubePlayer">
+      <UniqueIdentifier>{992b2236-4268-4746-9cf3-a44c72fad07c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\05. CubePlayer\Arm">
+      <UniqueIdentifier>{23f84953-e185-4e97-93d6-7b9a57d8473e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\05. CubePlayer\Leg">
+      <UniqueIdentifier>{fcfc542e-db5a-4db2-bfef-493af702a15f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\05. CubePlayer\Body">
+      <UniqueIdentifier>{96c1990b-c0ed-45fb-9623-a471fcb2eb2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\05. CubePlayer\Head">
+      <UniqueIdentifier>{4c596655-6eef-4602-a3c1-423dfbe90103}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. PoolMgr">
+      <UniqueIdentifier>{5906fc40-e537-40ed-a3d5-246624daf111}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. ToolMgr">
+      <UniqueIdentifier>{9e7febe0-125c-46b2-888f-34fcc55a03c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Default\Imgui">
+      <UniqueIdentifier>{167c3fd1-44d3-41f0-9fda-383515f4f041}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\99. TestCube">
+      <UniqueIdentifier>{3233272e-e7a2-44ee-942e-403f08eaf1b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\05. CubePlayer\Hand">
+      <UniqueIdentifier>{6ee794c0-aa33-465d-bf04-ae640cc2f219}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\05. CubePlayer\Foot">
+      <UniqueIdentifier>{ef04a8e1-ca29-494e-a23b-92df25412a57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\07. Weapon">
+      <UniqueIdentifier>{2866dcc5-758d-4213-81f5-49d4f574035c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\07. Weapon\00. Parts">
+      <UniqueIdentifier>{478fbffc-7cab-4516-acf3-41a8bb1b51ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\07. Weapon\01. Uzi">
+      <UniqueIdentifier>{2c0bbe60-dcf1-4a0f-8597-2dbaa70ea606}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\07. Weapon\02. Shotgun">
+      <UniqueIdentifier>{1920af0d-ed7d-4afd-9ada-b10f1c3b3b50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\07. Weapon\03. Sniper">
+      <UniqueIdentifier>{54c4003c-1eab-4f4a-902a-b99e8f6a458a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\07. Weapon\00. Parts\01.Uzi">
+      <UniqueIdentifier>{2f423c96-62f1-4899-a14e-69b748adaa05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\07. Weapon\00. Parts\02.Shotgun">
+      <UniqueIdentifier>{fdc78895-f0f5-4959-af6e-0c3aaa2706e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\07. Weapon\00. Parts\03.Sniper">
+      <UniqueIdentifier>{9a373401-ba49-4161-ba8f-118863a55ea5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene\10. ToolScene">
+      <UniqueIdentifier>{6425a67f-06c3-46ca-8288-402e1f0d0a5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene\02. LoadingScene">
+      <UniqueIdentifier>{6dd69e23-a69e-4895-8e30-88c0cb658400}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene\00. Logo\00. Button">
+      <UniqueIdentifier>{bceb9e91-bd89-4069-9875-fc5c830589eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene\00. Logo\00. Button\01. PlayButton">
+      <UniqueIdentifier>{7d1aa7b9-a602-4129-b2b5-d517ac165347}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene\00. Logo\00. Button\02. OptionButton">
+      <UniqueIdentifier>{71a91927-dfba-407f-8ca8-820d5a779386}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\08. Monster">
+      <UniqueIdentifier>{e8cd7a20-be14-4ffc-82a6-921f105af27a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\09. UI">
+      <UniqueIdentifier>{5a2321ba-4038-4880-aa2b-daee61f71bac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\10. Item">
+      <UniqueIdentifier>{71bb0e17-c5df-47ed-bc8b-66a0f40e51dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\10. Item\HP">
+      <UniqueIdentifier>{095932e2-2b4b-4b99-bb18-13fad55c9cbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\09. UI\Player">
+      <UniqueIdentifier>{b471c66c-802e-402b-8039-2b7e6e8b32e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\09. UI\Weapon">
+      <UniqueIdentifier>{802bd0cb-abc7-469c-96e0-39c939f1749c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene\00. Logo\00. Button\03. ExitButton">
+      <UniqueIdentifier>{79a36800-b911-45d9-a6b4-4eed3862e843}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene\00. Logo\00.LogoUI">
+      <UniqueIdentifier>{33ae2b03-193e-4f1d-8ce0-e17e5b2ab5a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\11. Map">
+      <UniqueIdentifier>{18b81755-5e70-4ea3-9fd4-4b9c17357ca3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\11. Map\Mapping">
+      <UniqueIdentifier>{a7ebac72-8610-45fd-b641-4baba65d4ec1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\11. Map\Mapping\01.Player">
+      <UniqueIdentifier>{767ffe4e-3c0f-4c84-a5f4-33bbd891b59b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\11. Map\Mapping\02.Monster">
+      <UniqueIdentifier>{65079ef6-b2ef-41b4-a1fb-a7806b3b77a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\11. Map\Mapping\03.Wall">
+      <UniqueIdentifier>{b605d09d-8f91-4b75-b269-fe6afb9ddf02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\10. Item\GunItem">
+      <UniqueIdentifier>{2297fd2f-74c1-4681-a7a4-c5d6aee9b900}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\10. Item\GunItem\GetUzi">
+      <UniqueIdentifier>{789ec30b-9ef2-4cbc-954c-1097a1a9debb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\10. Item\GunItem\GetShotgun">
+      <UniqueIdentifier>{d2187283-dba6-471c-84a7-ff16dc4f16d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\10. Item\GunItem\GetSniper">
+      <UniqueIdentifier>{53fa6b4b-f522-4262-a3ad-994b68bb55f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\10. Item\ETC">
+      <UniqueIdentifier>{873e25ca-5327-4889-a7bb-0cf342b1e514}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\13. Shop">
+      <UniqueIdentifier>{2d1d12a2-777e-4547-bede-e2da24f6ed53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\02. For_Public\99. LogoCamera">
+      <UniqueIdentifier>{99dab64c-74e5-4182-8849-04d15878175e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\02. For_Public\00. DynamicCamera">
+      <UniqueIdentifier>{e514a172-e61f-44ca-a57b-b9e601538f45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\09. UI\LetterBox">
+      <UniqueIdentifier>{3690129c-7dca-40ce-965a-b361c928a598}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\09. UI\Inventory">
+      <UniqueIdentifier>{9a65f411-a1dc-4910-a709-4f8322b9c5f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\09. UI\Inventory\ItemIcon">
+      <UniqueIdentifier>{cd74d960-1e5b-4687-8e6a-ea9e80745077}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\08. Monster\00. CubeMonster">
+      <UniqueIdentifier>{a596968f-c820-4272-8aca-0ea8adc2bdfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\08. Monster\00. CubeMonster\00. CubeMonsterArm">
+      <UniqueIdentifier>{d9dbb2dd-7560-4f37-ae4e-b638f32851cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\08. Monster\00. CubeMonster\01. CubeMonsterBody">
+      <UniqueIdentifier>{3b25c52f-f049-4e41-a3c0-ce9b88128439}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\08. Monster\00. CubeMonster\02. CubeMonsterHead">
+      <UniqueIdentifier>{80b7f2de-099d-4a91-a98a-0fa97e81f1b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\08. Monster\01. Zombie">
+      <UniqueIdentifier>{b73bf1a3-5d54-4214-b883-9b9076a98984}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\14. Crosshair">
+      <UniqueIdentifier>{3f226a98-4f8f-4047-88ae-9e99d5ca4d7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\09. UI\Monster">
+      <UniqueIdentifier>{bdd44947-81ab-4c33-9ac8-daa3f4a423ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\08. Monster\02. Skeleton">
+      <UniqueIdentifier>{675db7c6-f599-493e-bb7e-bd1f4af7ad93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\15. Animation_Player">
+      <UniqueIdentifier>{fe15b180-0961-47bb-ae3f-62ea9097c285}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\15. Animation_Player\TransAxisBox">
+      <UniqueIdentifier>{8f360f99-cec1-42a5-9a0a-89a33b07c286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\08. Monster\03. Slime">
+      <UniqueIdentifier>{d0361cb4-3c75-4b1a-b540-30d86aaedbdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\08. Monster\04. Fireman">
+      <UniqueIdentifier>{1e901fdb-4bfa-4af2-83fb-1fc754d2c808}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. For_Logo\00. BillBoard">
+      <UniqueIdentifier>{86146145-ea8c-49af-a4a6-baaa3910d0b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\00. Terrain">
+      <UniqueIdentifier>{40f1ba94-ad87-43ef-9cff-3cb75eb5c6eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\01. SkyBox">
+      <UniqueIdentifier>{b2c3ebcc-394f-4a53-873c-908db73434b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\02 Wall">
+      <UniqueIdentifier>{139b70e2-b611-4471-8714-9c310caac6a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\16. Skill">
+      <UniqueIdentifier>{b7353904-ea38-453f-9793-d3a8ad2631b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\17. Supporter">
+      <UniqueIdentifier>{8ed3bb62-6903-45c0-8dab-b3d82dc3460b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\18. Trap">
+      <UniqueIdentifier>{327e46a2-fa1e-4eea-ade8-6c09099aed4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\20. BillBoard">
+      <UniqueIdentifier>{97ebe466-2b13-4a05-8c1a-2b85aa2672b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\21. Rocket">
+      <UniqueIdentifier>{9cb28303-2be4-4a5b-aa55-51f86d88d953}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\98. Particle">
+      <UniqueIdentifier>{e67edead-06ae-4acc-bd1b-e08effea4297}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\98. Particle\01. EllipseParticle">
+      <UniqueIdentifier>{0a1e13af-f895-449f-b277-c5cb5eb2e2d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\98. Particle\01. EllipseParticle\SoundWave">
+      <UniqueIdentifier>{310a4f8f-6d88-4639-87d5-e6718bccbedc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\98. Particle\01. EllipseParticle\BubbleEffect">
+      <UniqueIdentifier>{223a3df1-9d58-4364-bf83-9f5f7c53e8c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\98. Particle\01. EllipseParticle\BulletParticle">
+      <UniqueIdentifier>{8b8e8762-503b-4f65-bd46-b89dd641e728}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\98. Particle\01. EllipseParticle\ShotParticle">
+      <UniqueIdentifier>{98ea7036-fd08-4909-9957-68a1def5d450}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\98. Particle\04. CloudEffect">
+      <UniqueIdentifier>{5a9f01ca-1659-44a3-aa75-361ca67c0c35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\98. Particle\04. CloudEffect\BrownCloudEffect">
+      <UniqueIdentifier>{4a6cd34c-e5f8-4cc9-8d88-f88ecf4348dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\98. Particle\04. CloudEffect\RainbowCloudEffect">
+      <UniqueIdentifier>{4e99c56f-1a48-4023-8cd9-f7a557949cff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\98. Particle\03. FlameEffect">
+      <UniqueIdentifier>{157ec52a-94a4-40ce-9acf-60749497986f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\98. Particle\99.ProjectileParticle">
+      <UniqueIdentifier>{0fe5b35b-be71-463b-af86-7669aaffd6c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\98. Particle\02. SparkEffect">
+      <UniqueIdentifier>{a37d7dea-0e88-46b5-bd1a-6c7088289f70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\98. Particle\02. SparkEffect\IceEffect">
+      <UniqueIdentifier>{58827d09-d6df-4066-88c4-8b6f8f5f89b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\98. Particle\00. HitEffect">
+      <UniqueIdentifier>{b577f51f-d850-4ff0-9b9a-b12912070375}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\97. Effect">
+      <UniqueIdentifier>{6064013c-b6da-49f6-94eb-d51444bbc0f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\98. Particle\02. SparkEffect\SparkEffect">
+      <UniqueIdentifier>{6f61648b-c955-4525-a484-eb290c51fde3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\98. Particle\01. EllipseParticle\FlightBulletParticle">
+      <UniqueIdentifier>{450732ba-faad-40a3-bea7-8228e27be1e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\10. Item\Key">
+      <UniqueIdentifier>{b2e09751-32a8-4e8e-be87-78466d0480d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\02. For_Public\02. FlightCamera">
+      <UniqueIdentifier>{319f3c8e-a395-452a-8a7e-efed25a8b33b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\98. Particle\05. CubeParticle">
+      <UniqueIdentifier>{fdf2dd7d-1ee3-4e56-80af-859db3e175a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\21. Boss">
+      <UniqueIdentifier>{0091e28e-b692-45e6-8762-b8ba0717f441}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\21. Boss\01. MiddleBoss">
+      <UniqueIdentifier>{f9679fc9-f9df-4237-9620-637d27d7b237}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\21. Boss\02. Kraken">
+      <UniqueIdentifier>{5869ba77-0d58-4782-9842-337b3b1cc769}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\99. TestCube\ObjectCube">
+      <UniqueIdentifier>{7d2a3a76-264c-406d-8871-25c389389598}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\08. Monster\06. Alien">
+      <UniqueIdentifier>{2c43a5b4-e017-4c87-bfcb-4ccef3bf147d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\08. Monster\05. Illusioner">
+      <UniqueIdentifier>{19cb1c5a-db84-437d-8e2d-d73850d02be6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\16. Skill\HyperionStrike">
+      <UniqueIdentifier>{9d34736e-d396-41f3-a137-5ec8399eb154}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\16. Skill\Meteor">
+      <UniqueIdentifier>{b8a186e1-549d-42f7-a074-3d318a13980e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\16. Skill\Shield">
+      <UniqueIdentifier>{bca41265-61ab-4798-9ed1-24c890369b80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\16. Skill\StaticField">
+      <UniqueIdentifier>{e883894a-da23-4adf-aed2-c83be0030cde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\16. Skill\Shield\DeffensiveMatrix">
+      <UniqueIdentifier>{47ba5b1f-d677-4cdc-a5bd-26a960a33048}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\98. Particle\05. CubeParticle\GunEffect">
+      <UniqueIdentifier>{5de82fb7-cd8a-4ff3-9776-3401ee6a6fd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\98. Particle\05. CubeParticle\GunEffect\Cartridge">
+      <UniqueIdentifier>{81ac8440-cab9-413a-a932-3c3fe53aaec1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\98. Particle\05. CubeParticle\GunEffect\Smoke">
+      <UniqueIdentifier>{a72ef9b2-f6ee-485f-b55f-81c531b5b1e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\98. Particle\05. CubeParticle\GunEffect\Fire">
+      <UniqueIdentifier>{3b8f1cc0-9058-4d6c-a37f-c35fade87a49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene\03. FinalStage">
+      <UniqueIdentifier>{4d8426b7-b55a-4193-9a78-a35ddf50f476}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\98. Particle\05. CubeParticle\RoundEffect">
+      <UniqueIdentifier>{7f0d0054-ce76-4a98-a0fb-23dfb696c68a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\98. Particle\05. CubeParticle\DefensiveEffect">
+      <UniqueIdentifier>{edb8693f-8440-47e6-8c1c-385563282345}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\98. Particle\05. CubeParticle\LaserEffect">
+      <UniqueIdentifier>{1108afb3-c831-4821-91bb-df6c0d2ca205}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\98. Particle\05. CubeParticle\KrakenEffect">
+      <UniqueIdentifier>{decc3d2b-2ce8-48ed-8eb2-45af8b960b3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\98. Particle\05. CubeParticle\VerticalLine">
+      <UniqueIdentifier>{cc4c2dd8-9bb1-45ea-8229-edf6c9b44c2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\98. Particle\05. CubeParticle\TraceEffect">
+      <UniqueIdentifier>{8db007b5-4d11-4de5-a05c-3ffc29b0ca09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\98. Particle\05. CubeParticle\LaserEffect\LaserPoint">
+      <UniqueIdentifier>{39cd4dfc-2eda-44e6-aa1b-11df62d6a94f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\06. Bullet">
+      <UniqueIdentifier>{e5424f61-e480-4334-a082-ad86a0d49d51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\06. Bullet\Missile">
+      <UniqueIdentifier>{f0dd0066-ee25-4045-a22e-ba735c290f5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\06. Bullet\ExBullet">
+      <UniqueIdentifier>{41141aed-bba1-4d69-ac27-8bd2526a3042}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\06. Bullet\Laser">
+      <UniqueIdentifier>{97dc89cc-42c4-423f-853c-0d623c22f11c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\98. Particle\05. CubeParticle\ProjectionEffect">
+      <UniqueIdentifier>{fcba2e6b-779d-4924-bb43-32b32361d648}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\98. Particle\05. CubeParticle\ItemCubeEffect">
+      <UniqueIdentifier>{c34126bd-e1a9-43f8-b492-1d48198dc86f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\98. Particle\05. CubeParticle\MiddleBoss">
+      <UniqueIdentifier>{86a1d70e-14fb-4dc8-a337-4db8813e086a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\98. Particle\05. CubeParticle\MiddleBoss\MiddleDead">
+      <UniqueIdentifier>{b6131e99-8874-423c-8f19-d2a182fef8be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\98. Particle\05. CubeParticle\MiddleBoss\MiddleDead\MFieldEffect">
+      <UniqueIdentifier>{c3b92b0a-b520-4a9e-8989-52ef9cd1ae0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\98. Particle\05. CubeParticle\MiddleBoss\TargetPoint">
+      <UniqueIdentifier>{4b5bffc5-2dfd-49be-8d53-b57a965ede15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\98. Particle\05. CubeParticle\LaserEffect\HyperionEffect">
+      <UniqueIdentifier>{1b0efa4c-daba-4c4e-9f5c-b6a9cb926ec8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\09. UI\NPC">
+      <UniqueIdentifier>{af8ade08-4a17-4a0b-abff-8fd1498828e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\98. Particle\05. CubeParticle\MiddleBoss\ExBulletEffect">
+      <UniqueIdentifier>{e58c01fb-f4ac-42ef-bd7e-0997f0ada0c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\98. Particle\05. CubeParticle\MiddleBoss\MBLaser">
+      <UniqueIdentifier>{fa0b8f0d-1fd8-49df-ace3-b2121f275ca6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\98. Particle\05. CubeParticle\MiddleBoss\MHitEffect">
+      <UniqueIdentifier>{56dad455-f1e6-47da-a1c0-345c4bb44801}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\98. Particle\05. CubeParticle\MiddleBoss\MBLaserReady">
+      <UniqueIdentifier>{406841bb-05a0-4693-9a1d-46b255790dc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. For_Stage\98. Particle\05. CubeParticle\MiddleBoss\MBBomb">
+      <UniqueIdentifier>{a9380f2e-ae85-43a6-9709-11713961f3f9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>99. Default\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99. Default\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>99. Default\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>99. Default\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\MainApp.h">
+      <Filter>00. MainApp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Logo.h">
+      <Filter>01. Scene\00. Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Stage.h">
+      <Filter>01. Scene\01. Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Loading.h">
+      <Filter>01. Scene\99. Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Terrain.h">
+      <Filter>02. GameObject\01. For_Stage\00. Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\DynamicCamera.h">
+      <Filter>02. GameObject\02. For_Public\00. DynamicCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\StaticCamera.h">
+      <Filter>02. GameObject\02. For_Public\01. StaticCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\SkyBox.h">
+      <Filter>02. GameObject\01. For_Stage\01. SkyBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Wall.h">
+      <Filter>02. GameObject\01. For_Stage\02 Wall</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CubeArm.h">
+      <Filter>02. GameObject\01. For_Stage\05. CubePlayer\Arm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CubeLeg.h">
+      <Filter>02. GameObject\01. For_Stage\05. CubePlayer\Leg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CubeBody.h">
+      <Filter>02. GameObject\01. For_Stage\05. CubePlayer\Body</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CubeHead.h">
+      <Filter>02. GameObject\01. For_Stage\05. CubePlayer\Head</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\PoolMgr.h">
+      <Filter>03. PoolMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Bullet.h">
+      <Filter>02. GameObject\01. For_Stage\06. Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\ImguiMgr.h">
+      <Filter>04. ToolMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="dirent.h">
+      <Filter>99. Default\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphEditor.h">
+      <Filter>99. Default\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imconfig.h">
+      <Filter>99. Default\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImCurveEdit.h">
+      <Filter>99. Default\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGradient.h">
+      <Filter>99. Default\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui.h">
+      <Filter>99. Default\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_dx9.h">
+      <Filter>99. Default\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_win32.h">
+      <Filter>99. Default\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_internal.h">
+      <Filter>99. Default\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGuiFileBrowser.h">
+      <Filter>99. Default\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGuiFileDialog.h">
+      <Filter>99. Default\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGuiFileDialogConfig.h">
+      <Filter>99. Default\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGuizmo.h">
+      <Filter>99. Default\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImSequencer.h">
+      <Filter>99. Default\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_rectpack.h">
+      <Filter>99. Default\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_textedit.h">
+      <Filter>99. Default\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_truetype.h">
+      <Filter>99. Default\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImZoomSlider.h">
+      <Filter>99. Default\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\TestCube.h">
+      <Filter>02. GameObject\01. For_Stage\99. TestCube</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CubeHand.h">
+      <Filter>02. GameObject\01. For_Stage\05. CubePlayer\Hand</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CubeFoot.h">
+      <Filter>02. GameObject\01. For_Stage\05. CubePlayer\Foot</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Weapon.h">
+      <Filter>02. GameObject\01. For_Stage\07. Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Sniper.h">
+      <Filter>02. GameObject\01. For_Stage\07. Weapon\03. Sniper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Shotgun.h">
+      <Filter>02. GameObject\01. For_Stage\07. Weapon\02. Shotgun</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\ShotgunPart1.h">
+      <Filter>02. GameObject\01. For_Stage\07. Weapon\00. Parts\02.Shotgun</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\ShotgunPart2.h">
+      <Filter>02. GameObject\01. For_Stage\07. Weapon\00. Parts\02.Shotgun</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\ShotgunPart3.h">
+      <Filter>02. GameObject\01. For_Stage\07. Weapon\00. Parts\02.Shotgun</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\ShotgunPart4.h">
+      <Filter>02. GameObject\01. For_Stage\07. Weapon\00. Parts\02.Shotgun</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\SniperPart1.h">
+      <Filter>02. GameObject\01. For_Stage\07. Weapon\00. Parts\03.Sniper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\SniperPart2.h">
+      <Filter>02. GameObject\01. For_Stage\07. Weapon\00. Parts\03.Sniper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\SniperPart3.h">
+      <Filter>02. GameObject\01. For_Stage\07. Weapon\00. Parts\03.Sniper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\SniperPart4.h">
+      <Filter>02. GameObject\01. For_Stage\07. Weapon\00. Parts\03.Sniper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Uzi.h">
+      <Filter>02. GameObject\01. For_Stage\07. Weapon\01. Uzi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\UziPart1.h">
+      <Filter>02. GameObject\01. For_Stage\07. Weapon\00. Parts\01.Uzi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\UziPart2.h">
+      <Filter>02. GameObject\01. For_Stage\07. Weapon\00. Parts\01.Uzi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\UziPart3.h">
+      <Filter>02. GameObject\01. For_Stage\07. Weapon\00. Parts\01.Uzi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\UziPart4.h">
+      <Filter>02. GameObject\01. For_Stage\07. Weapon\00. Parts\01.Uzi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\UziPart5.h">
+      <Filter>02. GameObject\01. For_Stage\07. Weapon\00. Parts\01.Uzi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\ToolScene.h">
+      <Filter>01. Scene\10. ToolScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\PlayButton.h">
+      <Filter>01. Scene\00. Logo\00. Button\01. PlayButton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\OptionButton.h">
+      <Filter>01. Scene\00. Logo\00. Button\02. OptionButton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Item.h">
+      <Filter>02. GameObject\01. For_Stage\10. Item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\HealthPotion.h">
+      <Filter>02. GameObject\01. For_Stage\10. Item\HP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\PlayerHpUI.h">
+      <Filter>02. GameObject\01. For_Stage\09. UI\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\PlayerUI.h">
+      <Filter>02. GameObject\01. For_Stage\09. UI\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\WeaponUI.h">
+      <Filter>02. GameObject\01. For_Stage\09. UI\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\BulletUI.h">
+      <Filter>02. GameObject\01. For_Stage\09. UI\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\ExitButton.h">
+      <Filter>01. Scene\00. Logo\00. Button\03. ExitButton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\LogoUI.h">
+      <Filter>01. Scene\00. Logo\00.LogoUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\BaseMapping.h">
+      <Filter>02. GameObject\01. For_Stage\11. Map\Mapping</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\PlayerMapping.h">
+      <Filter>02. GameObject\01. For_Stage\11. Map\Mapping\01.Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\MonsterMapping.h">
+      <Filter>02. GameObject\01. For_Stage\11. Map\Mapping\02.Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\WallMapping.h">
+      <Filter>02. GameObject\01. For_Stage\11. Map\Mapping\03.Wall</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\GetShotgun.h">
+      <Filter>02. GameObject\01. For_Stage\10. Item\GunItem\GetShotgun</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\GetSniper.h">
+      <Filter>02. GameObject\01. For_Stage\10. Item\GunItem\GetSniper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\GetUzi.h">
+      <Filter>02. GameObject\01. For_Stage\10. Item\GunItem\GetUzi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\GunUI.h">
+      <Filter>02. GameObject\01. For_Stage\09. UI\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\ObtainDefense.h">
+      <Filter>02. GameObject\01. For_Stage\10. Item\ETC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\ObtainBullet.h">
+      <Filter>02. GameObject\01. For_Stage\10. Item\ETC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\PlayerFaceUI.h">
+      <Filter>02. GameObject\01. For_Stage\09. UI\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\PlayerDefenseUI.h">
+      <Filter>02. GameObject\01. For_Stage\09. UI\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\MaxPlusHp.h">
+      <Filter>02. GameObject\01. For_Stage\10. Item\HP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\LogoCamera.h">
+      <Filter>02. GameObject\02. For_Public\99. LogoCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CrossHeader.h">
+      <Filter>02. GameObject\01. For_Stage\14. Crosshair</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\LetterBox.h">
+      <Filter>02. GameObject\01. For_Stage\09. UI\LetterBox</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>99. Default\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\LogoBilboard.h">
+      <Filter>02. GameObject\00. For_Logo\00. BillBoard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CubeShop.h">
+      <Filter>02. GameObject\01. For_Stage\13. Shop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Shop.h">
+      <Filter>02. GameObject\01. For_Stage\13. Shop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Inventory.h">
+      <Filter>02. GameObject\01. For_Stage\09. UI\Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\TargetCube.h">
+      <Filter>02. GameObject\01. For_Stage\08. Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\MonsterUI.h">
+      <Filter>02. GameObject\01. For_Stage\09. UI\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Zombie.h">
+      <Filter>02. GameObject\01. For_Stage\08. Monster\01. Zombie</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Monster.h">
+      <Filter>02. GameObject\01. For_Stage\08. Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Skeleton.h">
+      <Filter>02. GameObject\01. For_Stage\08. Monster\02. Skeleton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\AnimationPlayer.h">
+      <Filter>02. GameObject\01. For_Stage\15. Animation_Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\TransAxisBox.h">
+      <Filter>02. GameObject\01. For_Stage\15. Animation_Player\TransAxisBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\ItemIcon.h">
+      <Filter>02. GameObject\01. For_Stage\09. UI\Inventory\ItemIcon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\HitBarUI.h">
+      <Filter>02. GameObject\01. For_Stage\09. UI\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CubePlayer.h">
+      <Filter>02. GameObject\01. For_Stage\05. CubePlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Slime.h">
+      <Filter>02. GameObject\01. For_Stage\08. Monster\03. Slime</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\FireMan.h">
+      <Filter>02. GameObject\01. For_Stage\08. Monster\04. Fireman</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Illusioner.h">
+      <Filter>02. GameObject\01. For_Stage\08. Monster\05. Illusioner</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\ComboUI.h">
+      <Filter>02. GameObject\01. For_Stage\09. UI\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Supporter.h">
+      <Filter>02. GameObject\01. For_Stage\17. Supporter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Supporter_Uzi.h">
+      <Filter>02. GameObject\01. For_Stage\17. Supporter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\ItemBox.h">
+      <Filter>02. GameObject\01. For_Stage\18. Trap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Magma.h">
+      <Filter>02. GameObject\01. For_Stage\18. Trap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Trap.h">
+      <Filter>02. GameObject\01. For_Stage\18. Trap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Thorn.h">
+      <Filter>02. GameObject\01. For_Stage\18. Trap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\SpBullet.h">
+      <Filter>02. GameObject\01. For_Stage\06. Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Ping.h">
+      <Filter>02. GameObject\01. For_Stage\20. BillBoard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\BattleCursier.h">
+      <Filter>02. GameObject\01. For_Stage\21. Rocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Flight.h">
+      <Filter>02. GameObject\01. For_Stage\21. Rocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\BrownCloudEffect.h">
+      <Filter>02. GameObject\01. For_Stage\98. Particle\04. CloudEffect\BrownCloudEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\BubbleEffect.h">
+      <Filter>02. GameObject\01. For_Stage\98. Particle\01. EllipseParticle\BubbleEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CloudEffect.h">
+      <Filter>02. GameObject\01. For_Stage\98. Particle\04. CloudEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\FlameEffect.h">
+      <Filter>02. GameObject\01. For_Stage\98. Particle\03. FlameEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\IceEffect.h">
+      <Filter>02. GameObject\01. For_Stage\98. Particle\02. SparkEffect\IceEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\MonsterParticle.h">
+      <Filter>02. GameObject\01. For_Stage\98. Particle\00. HitEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\ProjectileParticle.h">
+      <Filter>02. GameObject\01. For_Stage\98. Particle\99.ProjectileParticle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\ShotParticle.h">
+      <Filter>02. GameObject\01. For_Stage\98. Particle\01. EllipseParticle\ShotParticle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\SoundWave.h">
+      <Filter>02. GameObject\01. For_Stage\98. Particle\01. EllipseParticle\SoundWave</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\BulletParticle.h">
+      <Filter>02. GameObject\01. For_Stage\98. Particle\01. EllipseParticle\BulletParticle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\RainbowCloudEffect.h">
+      <Filter>02. GameObject\01. For_Stage\98. Particle\04. CloudEffect\RainbowCloudEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\EveryParticle.h">
+      <Filter>02. GameObject\01. For_Stage\98. Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\RcEffect.h">
+      <Filter>02. GameObject\01. For_Stage\97. Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\SparkEffect.h">
+      <Filter>02. GameObject\01. For_Stage\98. Particle\02. SparkEffect\SparkEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\ItemParticle.h">
+      <Filter>02. GameObject\01. For_Stage\98. Particle\02. SparkEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\FlightBulletParticle.h">
+      <Filter>02. GameObject\01. For_Stage\98. Particle\01. EllipseParticle\FlightBulletParticle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Terret.h">
+      <Filter>02. GameObject\01. For_Stage\18. Trap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\FlightCamera.h">
+      <Filter>02. GameObject\02. For_Public\02. FlightCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\FlightSpot.h">
+      <Filter>02. GameObject\01. For_Stage\21. Rocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\FlightBomb.h">
+      <Filter>02. GameObject\01. For_Stage\06. Bullet\Missile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Explosion.h">
+      <Filter>02. GameObject\01. For_Stage\06. Bullet\Missile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\ExBullet.h">
+      <Filter>02. GameObject\01. For_Stage\06. Bullet\ExBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\DashCube.h">
+      <Filter>02. GameObject\01. For_Stage\98. Particle\05. CubeParticle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CubeParticle.h">
+      <Filter>02. GameObject\01. For_Stage\98. Particle\05. CubeParticle</Filter>
+    </ClInclude>
+    <ClInclude Include="KrakenBoss.h">
+      <Filter>02. GameObject\01. For_Stage\21. Boss\02. Kraken</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\MiddleBoss.h">
+      <Filter>02. GameObject\01. For_Stage\21. Boss\01. MiddleBoss</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Key.h">
+      <Filter>02. GameObject\01. For_Stage\10. Item\Key</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\ObjectCube.h">
+      <Filter>02. GameObject\01. For_Stage\99. TestCube\ObjectCube</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Alien.h">
+      <Filter>02. GameObject\01. For_Stage\08. Monster\06. Alien</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\DeffensiveMatrix.h">
+      <Filter>02. GameObject\01. For_Stage\16. Skill\Shield\DeffensiveMatrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\HyperionStrike.h">
+      <Filter>02. GameObject\01. For_Stage\16. Skill\HyperionStrike</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Meteor.h">
+      <Filter>02. GameObject\01. For_Stage\16. Skill\Meteor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Shield.h">
+      <Filter>02. GameObject\01. For_Stage\16. Skill\Shield</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\StaticField.h">
+      <Filter>02. GameObject\01. For_Stage\16. Skill\StaticField</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Veneer.h">
+      <Filter>99. Default\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CartridgeParticle.h">
+      <Filter>02. GameObject\01. For_Stage\98. Particle\05. CubeParticle\GunEffect\Cartridge</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\TriggerParticle.h">
+      <Filter>02. GameObject\01. For_Stage\98. Particle\05. CubeParticle\GunEffect\Smoke</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\TriggerFront.h">
+      <Filter>02. GameObject\01. For_Stage\98. Particle\05. CubeParticle\GunEffect\Fire</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Supporter_Shotgun.h">
+      <Filter>02. GameObject\01. For_Stage\17. Supporter</Filter>
+    </ClInclude>
+    <ClInclude Include="Supporter_Sniper.h">
+      <Filter>02. GameObject\01. For_Stage\17. Supporter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\FinalStage.h">
+      <Filter>01. Scene\03. FinalStage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\LoadingBar.h">
+      <Filter>99. Default\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Laser.h">
+      <Filter>02. GameObject\01. For_Stage\06. Bullet\Laser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\DefensiveEffect.h">
+      <Filter>02. GameObject\01. For_Stage\98. Particle\05. CubeParticle\DefensiveEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\KrakenEffect.h">
+      <Filter>02. GameObject\01. For_Stage\98. Particle\05. CubeParticle\KrakenEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\LaserEffect.h">
+      <Filter>02. GameObject\01. For_Stage\98. Particle\05. CubeParticle\LaserEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\LaserPoint.h">
+      <Filter>02. GameObject\01. For_Stage\98. Particle\05. CubeParticle\LaserEffect\LaserPoint</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\RoundEffect.h">
+      <Filter>02. GameObject\01. For_Stage\98. Particle\05. CubeParticle\RoundEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\TraceEffect.h">
+      <Filter>02. GameObject\01. For_Stage\98. Particle\05. CubeParticle\TraceEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\VerticalLine.h">
+      <Filter>02. GameObject\01. For_Stage\98. Particle\05. CubeParticle\VerticalLine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\KrakenLeg.h">
+      <Filter>02. GameObject\01. For_Stage\21. Boss\02. Kraken</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\KrakenBullet.h">
+      <Filter>02. GameObject\01. For_Stage\21. Boss\02. Kraken</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\ProjectionEffect.h">
+      <Filter>02. GameObject\01. For_Stage\98. Particle\05. CubeParticle\ProjectionEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\MFieldEffect.h">
+      <Filter>02. GameObject\01. For_Stage\98. Particle\05. CubeParticle\MiddleBoss\MiddleDead\MFieldEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Mob.h">
+      <Filter>99. Default\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Quest.h">
+      <Filter>02. GameObject\01. For_Stage\09. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\ItemCubeEffect.h">
+      <Filter>02. GameObject\01. For_Stage\98. Particle\05. CubeParticle\ItemCubeEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\TargetPointEffect.h">
+      <Filter>02. GameObject\01. For_Stage\98. Particle\05. CubeParticle\MiddleBoss\TargetPoint</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\HyperionEffect.h">
+      <Filter>02. GameObject\01. For_Stage\98. Particle\05. CubeParticle\LaserEffect\HyperionEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Warning_AnnihilateUI.h">
+      <Filter>02. GameObject\01. For_Stage\09. UI\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\LaserSpot.h">
+      <Filter>99. Default\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Npc.h">
+      <Filter>02. GameObject\01. For_Stage\09. UI\NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\DeadParticle.h">
+      <Filter>99. Default\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\KrakenParticle.h">
+      <Filter>02. GameObject\01. For_Stage\98. Particle\05. CubeParticle\KrakenEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\KrakenHit.h">
+      <Filter>02. GameObject\01. For_Stage\98. Particle\05. CubeParticle\KrakenEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\ExBulletEffect.h">
+      <Filter>02. GameObject\01. For_Stage\98. Particle\05. CubeParticle\MiddleBoss\ExBulletEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\MBLaser.h">
+      <Filter>02. GameObject\01. For_Stage\98. Particle\05. CubeParticle\MiddleBoss\MBLaser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\MHitEffect.h">
+      <Filter>02. GameObject\01. For_Stage\98. Particle\05. CubeParticle\MiddleBoss\MHitEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\MBLaserReady.h">
+      <Filter>02. GameObject\01. For_Stage\98. Particle\05. CubeParticle\MiddleBoss\MBLaserReady</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\MBBomb.h">
+      <Filter>02. GameObject\01. For_Stage\98. Particle\05. CubeParticle\MiddleBoss\MBBomb</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>99. Default\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>99. Default\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\MainApp.cpp">
+      <Filter>00. MainApp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Logo.cpp">
+      <Filter>01. Scene\00. Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Stage.cpp">
+      <Filter>01. Scene\01. Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Loading.cpp">
+      <Filter>01. Scene\99. Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Terrain.cpp">
+      <Filter>02. GameObject\01. For_Stage\00. Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\DynamicCamera.cpp">
+      <Filter>02. GameObject\02. For_Public\00. DynamicCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\StaticCamera.cpp">
+      <Filter>02. GameObject\02. For_Public\01. StaticCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SkyBox.cpp">
+      <Filter>02. GameObject\01. For_Stage\01. SkyBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Wall.cpp">
+      <Filter>02. GameObject\01. For_Stage\02 Wall</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CubePlayer.cpp">
+      <Filter>02. GameObject\01. For_Stage\05. CubePlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CubeArm.cpp">
+      <Filter>02. GameObject\01. For_Stage\05. CubePlayer\Arm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CubeLeg.cpp">
+      <Filter>02. GameObject\01. For_Stage\05. CubePlayer\Leg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CubeBody.cpp">
+      <Filter>02. GameObject\01. For_Stage\05. CubePlayer\Body</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CubeHead.cpp">
+      <Filter>02. GameObject\01. For_Stage\05. CubePlayer\Head</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\PoolMgr.cpp">
+      <Filter>03. PoolMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Bullet.cpp">
+      <Filter>02. GameObject\01. For_Stage\06. Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ImguiMgr.cpp">
+      <Filter>04. ToolMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphEditor.cpp">
+      <Filter>99. Default\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImCurveEdit.cpp">
+      <Filter>99. Default\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGradient.cpp">
+      <Filter>99. Default\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui.cpp">
+      <Filter>99. Default\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_demo.cpp">
+      <Filter>99. Default\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_draw.cpp">
+      <Filter>99. Default\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_dx9.cpp">
+      <Filter>99. Default\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_win32.cpp">
+      <Filter>99. Default\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_tables.cpp">
+      <Filter>99. Default\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_widgets.cpp">
+      <Filter>99. Default\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGuiFileBrowser.cpp">
+      <Filter>99. Default\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGuiFileDialog.cpp">
+      <Filter>99. Default\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGuizmo.cpp">
+      <Filter>99. Default\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImSequencer.cpp">
+      <Filter>99. Default\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\TestCube.cpp">
+      <Filter>02. GameObject\01. For_Stage\99. TestCube</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CubeHand.cpp">
+      <Filter>02. GameObject\01. For_Stage\05. CubePlayer\Hand</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CubeFoot.cpp">
+      <Filter>02. GameObject\01. For_Stage\05. CubePlayer\Foot</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Weapon.cpp">
+      <Filter>02. GameObject\01. For_Stage\07. Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Sniper.cpp">
+      <Filter>02. GameObject\01. For_Stage\07. Weapon\03. Sniper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Shotgun.cpp">
+      <Filter>02. GameObject\01. For_Stage\07. Weapon\02. Shotgun</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ShotgunPart1.cpp">
+      <Filter>02. GameObject\01. For_Stage\07. Weapon\00. Parts\02.Shotgun</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ShotgunPart2.cpp">
+      <Filter>02. GameObject\01. For_Stage\07. Weapon\00. Parts\02.Shotgun</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ShotgunPart3.cpp">
+      <Filter>02. GameObject\01. For_Stage\07. Weapon\00. Parts\02.Shotgun</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ShotgunPart4.cpp">
+      <Filter>02. GameObject\01. For_Stage\07. Weapon\00. Parts\02.Shotgun</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SniperPart1.cpp">
+      <Filter>02. GameObject\01. For_Stage\07. Weapon\00. Parts\03.Sniper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SniperPart2.cpp">
+      <Filter>02. GameObject\01. For_Stage\07. Weapon\00. Parts\03.Sniper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SniperPart3.cpp">
+      <Filter>02. GameObject\01. For_Stage\07. Weapon\00. Parts\03.Sniper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SniperPart4.cpp">
+      <Filter>02. GameObject\01. For_Stage\07. Weapon\00. Parts\03.Sniper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Uzi.cpp">
+      <Filter>02. GameObject\01. For_Stage\07. Weapon\01. Uzi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\UziPart5.cpp">
+      <Filter>02. GameObject\01. For_Stage\07. Weapon\00. Parts\01.Uzi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\UziPart1.cpp">
+      <Filter>02. GameObject\01. For_Stage\07. Weapon\00. Parts\01.Uzi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\UziPart2.cpp">
+      <Filter>02. GameObject\01. For_Stage\07. Weapon\00. Parts\01.Uzi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\UziPart3.cpp">
+      <Filter>02. GameObject\01. For_Stage\07. Weapon\00. Parts\01.Uzi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\UziPart4.cpp">
+      <Filter>02. GameObject\01. For_Stage\07. Weapon\00. Parts\01.Uzi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ToolScene.cpp">
+      <Filter>01. Scene\10. ToolScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\PlayButton.cpp">
+      <Filter>01. Scene\00. Logo\00. Button\01. PlayButton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\OptionButton.cpp">
+      <Filter>01. Scene\00. Logo\00. Button\02. OptionButton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Item.cpp">
+      <Filter>02. GameObject\01. For_Stage\10. Item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\HealthPotion.cpp">
+      <Filter>02. GameObject\01. For_Stage\10. Item\HP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\PlayerHpUI.cpp">
+      <Filter>02. GameObject\01. For_Stage\09. UI\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\PlayerUI.cpp">
+      <Filter>02. GameObject\01. For_Stage\09. UI\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\WeaponUI.cpp">
+      <Filter>02. GameObject\01. For_Stage\09. UI\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\BulletUI.cpp">
+      <Filter>02. GameObject\01. For_Stage\09. UI\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ExitButton.cpp">
+      <Filter>01. Scene\00. Logo\00. Button\03. ExitButton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\LogoUI.cpp">
+      <Filter>01. Scene\00. Logo\00.LogoUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\BaseMapping.cpp">
+      <Filter>02. GameObject\01. For_Stage\11. Map\Mapping</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\PlayerMapping.cpp">
+      <Filter>02. GameObject\01. For_Stage\11. Map\Mapping\01.Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\MonsterMapping.cpp">
+      <Filter>02. GameObject\01. For_Stage\11. Map\Mapping\02.Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\WallMapping.cpp">
+      <Filter>02. GameObject\01. For_Stage\11. Map\Mapping\03.Wall</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\GetShotgun.cpp">
+      <Filter>02. GameObject\01. For_Stage\10. Item\GunItem\GetShotgun</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\GetSniper.cpp">
+      <Filter>02. GameObject\01. For_Stage\10. Item\GunItem\GetSniper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\GetUzi.cpp">
+      <Filter>02. GameObject\01. For_Stage\10. Item\GunItem\GetUzi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\GunUI.cpp">
+      <Filter>02. GameObject\01. For_Stage\09. UI\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ObtainDefense.cpp">
+      <Filter>02. GameObject\01. For_Stage\10. Item\ETC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ObtainBullet.cpp">
+      <Filter>02. GameObject\01. For_Stage\10. Item\ETC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\PlayerFaceUI.cpp">
+      <Filter>02. GameObject\01. For_Stage\09. UI\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\PlayerDefenseUI.cpp">
+      <Filter>02. GameObject\01. For_Stage\09. UI\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\MaxPlusHp.cpp">
+      <Filter>02. GameObject\01. For_Stage\10. Item\HP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\LogoCamera.cpp">
+      <Filter>02. GameObject\02. For_Public\99. LogoCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CrossHeader.cpp">
+      <Filter>02. GameObject\01. For_Stage\14. Crosshair</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\LetterBox.cpp">
+      <Filter>02. GameObject\01. For_Stage\09. UI\LetterBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\LogoBilboard.cpp">
+      <Filter>02. GameObject\00. For_Logo\00. BillBoard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CubeShop.cpp">
+      <Filter>02. GameObject\01. For_Stage\13. Shop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Shop.cpp">
+      <Filter>02. GameObject\01. For_Stage\13. Shop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Inventory.cpp">
+      <Filter>02. GameObject\01. For_Stage\09. UI\Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ItemIcon.cpp">
+      <Filter>02. GameObject\01. For_Stage\09. UI\Inventory\ItemIcon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\TargetCube.cpp">
+      <Filter>02. GameObject\01. For_Stage\08. Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\MonsterUI.cpp">
+      <Filter>02. GameObject\01. For_Stage\09. UI\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Zombie.cpp">
+      <Filter>02. GameObject\01. For_Stage\08. Monster\01. Zombie</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Monster.cpp">
+      <Filter>02. GameObject\01. For_Stage\08. Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Skeleton.cpp">
+      <Filter>02. GameObject\01. For_Stage\08. Monster\02. Skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\AnimationPlayer.cpp">
+      <Filter>02. GameObject\01. For_Stage\15. Animation_Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\TransAxisBox.cpp">
+      <Filter>02. GameObject\01. For_Stage\15. Animation_Player\TransAxisBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\HitBarUI.cpp">
+      <Filter>02. GameObject\01. For_Stage\09. UI\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Slime.cpp">
+      <Filter>02. GameObject\01. For_Stage\08. Monster\03. Slime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\FireMan.cpp">
+      <Filter>02. GameObject\01. For_Stage\08. Monster\04. Fireman</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Illusioner.cpp">
+      <Filter>02. GameObject\01. For_Stage\08. Monster\05. Illusioner</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ComboUI.cpp">
+      <Filter>02. GameObject\01. For_Stage\09. UI\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Supporter.cpp">
+      <Filter>02. GameObject\01. For_Stage\17. Supporter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Supporter_Uzi.cpp">
+      <Filter>02. GameObject\01. For_Stage\17. Supporter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Magma.cpp">
+      <Filter>02. GameObject\01. For_Stage\18. Trap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Thorn.cpp">
+      <Filter>02. GameObject\01. For_Stage\18. Trap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Trap.cpp">
+      <Filter>02. GameObject\01. For_Stage\18. Trap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ItemBox.cpp">
+      <Filter>02. GameObject\01. For_Stage\18. Trap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SpBullet.cpp">
+      <Filter>02. GameObject\01. For_Stage\06. Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Ping.cpp">
+      <Filter>02. GameObject\01. For_Stage\20. BillBoard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\BattleCursier.cpp">
+      <Filter>02. GameObject\01. For_Stage\21. Rocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Flight.cpp">
+      <Filter>02. GameObject\01. For_Stage\21. Rocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\BrownCloudEffect.cpp">
+      <Filter>02. GameObject\01. For_Stage\98. Particle\04. CloudEffect\BrownCloudEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\BubbleEffect.cpp">
+      <Filter>02. GameObject\01. For_Stage\98. Particle\01. EllipseParticle\BubbleEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CloudEffect.cpp">
+      <Filter>02. GameObject\01. For_Stage\98. Particle\04. CloudEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\FlameEffect.cpp">
+      <Filter>02. GameObject\01. For_Stage\98. Particle\03. FlameEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\IceEffect.cpp">
+      <Filter>02. GameObject\01. For_Stage\98. Particle\02. SparkEffect\IceEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\MonsterParticle.cpp">
+      <Filter>02. GameObject\01. For_Stage\98. Particle\00. HitEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ProjectileParticle.cpp">
+      <Filter>02. GameObject\01. For_Stage\98. Particle\99.ProjectileParticle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ShotParticle.cpp">
+      <Filter>02. GameObject\01. For_Stage\98. Particle\01. EllipseParticle\ShotParticle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SoundWave.cpp">
+      <Filter>02. GameObject\01. For_Stage\98. Particle\01. EllipseParticle\SoundWave</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\BulletParicle.cpp">
+      <Filter>02. GameObject\01. For_Stage\98. Particle\01. EllipseParticle\BulletParticle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\RainbowCloudEffect.cpp">
+      <Filter>02. GameObject\01. For_Stage\98. Particle\04. CloudEffect\RainbowCloudEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\RcEffect.cpp">
+      <Filter>02. GameObject\01. For_Stage\97. Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SparkEffect.cpp">
+      <Filter>02. GameObject\01. For_Stage\98. Particle\02. SparkEffect\SparkEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ItemParticle.cpp">
+      <Filter>02. GameObject\01. For_Stage\98. Particle\02. SparkEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\FlightBulletParticle.cpp">
+      <Filter>02. GameObject\01. For_Stage\98. Particle\01. EllipseParticle\FlightBulletParticle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Terret.cpp">
+      <Filter>02. GameObject\01. For_Stage\18. Trap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\FlightCamera.cpp">
+      <Filter>02. GameObject\02. For_Public\02. FlightCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\FlightSpot.cpp">
+      <Filter>02. GameObject\01. For_Stage\21. Rocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\FlightBomb.cpp">
+      <Filter>02. GameObject\01. For_Stage\06. Bullet\Missile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Explosion.cpp">
+      <Filter>02. GameObject\01. For_Stage\06. Bullet\Missile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ExBullet.cpp">
+      <Filter>02. GameObject\01. For_Stage\06. Bullet\ExBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CubeParticle.cpp">
+      <Filter>02. GameObject\01. For_Stage\98. Particle\05. CubeParticle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\DashCube.cpp">
+      <Filter>02. GameObject\01. For_Stage\98. Particle\05. CubeParticle</Filter>
+    </ClCompile>
+    <ClCompile Include="KrakenBoss.cpp">
+      <Filter>02. GameObject\01. For_Stage\21. Boss\02. Kraken</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\MiddleBoss.cpp">
+      <Filter>02. GameObject\01. For_Stage\21. Boss\01. MiddleBoss</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Key.cpp">
+      <Filter>02. GameObject\01. For_Stage\10. Item\Key</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ObjectCube.cpp">
+      <Filter>02. GameObject\01. For_Stage\99. TestCube\ObjectCube</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Alien.cpp">
+      <Filter>02. GameObject\01. For_Stage\08. Monster\06. Alien</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\DeffensiveMatrix.cpp">
+      <Filter>02. GameObject\01. For_Stage\16. Skill\Shield\DeffensiveMatrix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\HyperionStrike.cpp">
+      <Filter>02. GameObject\01. For_Stage\16. Skill\HyperionStrike</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Meteor.cpp">
+      <Filter>02. GameObject\01. For_Stage\16. Skill\Meteor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Shield.cpp">
+      <Filter>02. GameObject\01. For_Stage\16. Skill\Shield</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\StaticField.cpp">
+      <Filter>02. GameObject\01. For_Stage\16. Skill\StaticField</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Veneer.cpp">
+      <Filter>99. Default\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CartridgeParticle.cpp">
+      <Filter>02. GameObject\01. For_Stage\98. Particle\05. CubeParticle\GunEffect\Cartridge</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\TriggerParticle.cpp">
+      <Filter>02. GameObject\01. For_Stage\98. Particle\05. CubeParticle\GunEffect\Smoke</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\TriggerFront.cpp">
+      <Filter>02. GameObject\01. For_Stage\98. Particle\05. CubeParticle\GunEffect\Fire</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Supporter_Shotgun.cpp">
+      <Filter>02. GameObject\01. For_Stage\17. Supporter</Filter>
+    </ClCompile>
+    <ClCompile Include="Supporter_Sniper.cpp">
+      <Filter>02. GameObject\01. For_Stage\17. Supporter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\FinalStage.cpp">
+      <Filter>01. Scene\03. FinalStage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\LoadingBar.cpp">
+      <Filter>99. Default\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Laser.cpp">
+      <Filter>02. GameObject\01. For_Stage\06. Bullet\Laser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\DefensiveEffect.cpp">
+      <Filter>02. GameObject\01. For_Stage\98. Particle\05. CubeParticle\DefensiveEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\KrakenEffect.cpp">
+      <Filter>02. GameObject\01. For_Stage\98. Particle\05. CubeParticle\KrakenEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\LaserEffect.cpp">
+      <Filter>02. GameObject\01. For_Stage\98. Particle\05. CubeParticle\LaserEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\LaserPoint.cpp">
+      <Filter>02. GameObject\01. For_Stage\98. Particle\05. CubeParticle\LaserEffect\LaserPoint</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\RoundEffect.cpp">
+      <Filter>02. GameObject\01. For_Stage\98. Particle\05. CubeParticle\RoundEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\TraceEffect.cpp">
+      <Filter>02. GameObject\01. For_Stage\98. Particle\05. CubeParticle\TraceEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\VerticalLine.cpp">
+      <Filter>02. GameObject\01. For_Stage\98. Particle\05. CubeParticle\VerticalLine</Filter>
+    </ClCompile>
+    <ClCompile Include="KrakenLeg.cpp">
+      <Filter>02. GameObject\01. For_Stage\21. Boss\02. Kraken</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\KrakenBullet.cpp">
+      <Filter>02. GameObject\01. For_Stage\21. Boss\02. Kraken</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ProjectionEffect.cpp">
+      <Filter>02. GameObject\01. For_Stage\98. Particle\05. CubeParticle\ProjectionEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\MFieldEffect.cpp">
+      <Filter>02. GameObject\01. For_Stage\98. Particle\05. CubeParticle\MiddleBoss\MiddleDead\MFieldEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Mob.cpp">
+      <Filter>99. Default\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Quest.cpp">
+      <Filter>02. GameObject\01. For_Stage\09. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ItemCubeEffect.cpp">
+      <Filter>02. GameObject\01. For_Stage\98. Particle\05. CubeParticle\ItemCubeEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\TargetPointEffect.cpp">
+      <Filter>02. GameObject\01. For_Stage\98. Particle\05. CubeParticle\MiddleBoss\TargetPoint</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\HyperionEffect.cpp">
+      <Filter>02. GameObject\01. For_Stage\98. Particle\05. CubeParticle\LaserEffect\HyperionEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Warning_AnnihilateUI.cpp">
+      <Filter>02. GameObject\01. For_Stage\09. UI\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\LaserSpot.cpp">
+      <Filter>99. Default\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Npc.cpp">
+      <Filter>02. GameObject\01. For_Stage\09. UI\NPC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\DeadParticle.cpp">
+      <Filter>99. Default\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\KrakenParticle.cpp">
+      <Filter>02. GameObject\01. For_Stage\98. Particle\05. CubeParticle\KrakenEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\KrakenHit.cpp">
+      <Filter>02. GameObject\01. For_Stage\98. Particle\05. CubeParticle\KrakenEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ExBulletEffect.cpp">
+      <Filter>02. GameObject\01. For_Stage\98. Particle\05. CubeParticle\MiddleBoss\ExBulletEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\MBLaser.cpp">
+      <Filter>02. GameObject\01. For_Stage\98. Particle\05. CubeParticle\MiddleBoss\MBLaser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\MHitEffect.cpp">
+      <Filter>02. GameObject\01. For_Stage\98. Particle\05. CubeParticle\MiddleBoss\MHitEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\MBLaserReady.cpp">
+      <Filter>02. GameObject\01. For_Stage\98. Particle\05. CubeParticle\MiddleBoss\MBLaserReady</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\MBBomb.cpp">
+      <Filter>02. GameObject\01. For_Stage\98. Particle\05. CubeParticle\MiddleBoss\MBBomb</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc">
+      <Filter>99. Default\리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>99. Default\리소스 파일</Filter>
+    </Image>
+    <Image Include="Client.ico">
+      <Filter>99. Default\리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>99. Default</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imgui.ini">
+      <Filter>99. Default\Imgui</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_Rect.hlsl">
+      <Filter>99. Default</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_Cube.hlsl" />
+  </ItemGroup>
+</Project>
